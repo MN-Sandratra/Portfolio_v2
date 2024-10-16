@@ -24,7 +24,7 @@ const ContactSection: React.FC = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <p className="text-lg text-gray-600 dark:text-gray-300 mb-12 text-center">
-            Vous avez un projet en tête ou vous souhaitez simplement discuter ? N'hésitez pas à me contacter !
+            Vous avez un projet en tête ou vous souhaitez simplement discuter ? N&apos;hésitez pas à me contacter !
           </p>
           <div className="flex justify-center">
             <a

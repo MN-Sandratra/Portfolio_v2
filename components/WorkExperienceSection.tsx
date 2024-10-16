@@ -67,7 +67,9 @@ const WorkExperienceSection: React.FC = () => {
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.3, delay: index * 0.1 }}
-                ref={(el) => (companiesRef.current[index] = el)}
+                ref={(el) => {
+                  companiesRef.current[index] = el;
+                }}
               >
                 <button
                   className={`w-full text-left py-2 pr-4 pl-6 transition-colors duration-300 ${

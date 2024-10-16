@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const Header: React.FC = () => {
   return (
-    <header className="flex flex-col justify-center min-h-screen px-4 md:px-12 max-w-5xl mx-auto" id='Accueil'>
+    <header className="flex flex-col justify-center min-h-screen px-4 md:px-12 max-w-5xl mx-auto" id='home'>
       <motion.h1 
         className="text-lg md:text-xl font-medium mb-2 text-gray-600 dark:text-gray-400"
         initial={{ opacity: 0, y: -20 }}
@@ -36,9 +36,9 @@ const Header: React.FC = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.6 }}
       >
-        Passionné par la création d'applications web innovantes et performantes, 
+        Passionné par la création d&apos;applications web innovantes et performantes, 
         je transforme des idées en solutions digitales élégantes et efficaces. 
-        Mon expertise couvre l'ensemble du processus de développement, de la conception à la mise en production.
+        Mon expertise couvre l&apos;ensemble du processus de développement, de la conception à la mise en production.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 20 }}

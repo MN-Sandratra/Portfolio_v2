@@ -68,11 +68,11 @@ const AboutSection: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <p className="text-md text-gray-700 dark:text-gray-300 mb-4">
-            Diplômé d'un Master en informatique avec une spécialisation en génie logiciel, je suis passionné par le développement de solutions innovantes et efficaces. </p>
+            Diplômé d&apos;un Master en informatique avec une spécialisation en génie logiciel, je suis passionné par le développement de solutions innovantes et efficaces. </p>
             <p className="text-md text-gray-700 dark:text-gray-300 mb-4">
-            Actuellement, je poursuis une double diplomation en management et gestion d'entreprise, avec une spécialisation en gestion de projet. Ce parcours me permet d’allier mes compétences techniques et mes connaissances en gestion, afin de devenir un chef de projet capable de piloter des équipes vers l’atteinte d’objectifs ambitieux.</p>
+            Actuellement, je poursuis une double diplomation en management et gestion d&apos;entreprise, avec une spécialisation en gestion de projet. Ce parcours me permet d&apos;allier mes compétences techniques et mes connaissances en gestion, afin de devenir un chef de projet capable de piloter des équipes vers l&apos;atteinte d&apos;objectifs ambitieux.</p>
             <p className="text-md text-gray-700 dark:text-gray-300 mb-4">
-              Ma passion pour l'apprentissage continu et mon désir de rester à la pointe de la technologie me poussent à explorer constamment de nouvelles technologies et méthodologies.
+              Ma passion pour l&apos;apprentissage continu et mon désir de rester à la pointe de la technologie me poussent à explorer constamment de nouvelles technologies et méthodologies.
             </p>
           </motion.div>
           <motion.div 

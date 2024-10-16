@@ -1,12 +1,23 @@
 "use client";
 
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { FaGithub, FaExternalLinkAlt, FaChevronDown, FaChevronUp } from 'react-icons/fa';
+import { motion } from 'framer-motion';
+import { FaGithub, FaExternalLinkAlt, FaChevronDown } from 'react-icons/fa';
 import projectsData from '../data/projects.json';
 import Image from 'next/image';
 
-const ProjectCard: React.FC<{ project: any; index: number; expandedProject: number | null; toggleProjectDescription: (index: number) => void }> = ({ project, index, expandedProject, toggleProjectDescription }) => {
+// Définissez une interface pour le type Project
+interface Project {
+  id: string;
+  title: string;
+  description: string;
+  image: string;
+  technologies: string[];
+  github: string;
+  demo: string;
+}
+
+const ProjectCard: React.FC<{ project: Project; index: number; expandedProject: number | null; toggleProjectDescription: (index: number) => void }> = ({ project, index, expandedProject, toggleProjectDescription }) => {
   const isExpanded = expandedProject === index;
 
   return (
@@ -111,8 +122,8 @@ const ProjectsSection: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projectsData.map((project, index) => (
             <ProjectCard
-              key={project.id}
-              project={project}
+              key={project.id.toString()}
+              project={{...project, id: project.id.toString()}}
               index={index}
               expandedProject={expandedProject}
               toggleProjectDescription={toggleProjectDescription}
