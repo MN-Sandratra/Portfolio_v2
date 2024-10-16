@@ -1,0 +1,26 @@
+[
+  {
+    "degree": "Master en Management et Administration d'entreprise, Chef de projet",
+    "institution": "Université de Montpellier - IAE de Montpellier",
+    "year": "2024 - Aujourd'hui",
+    "description": "Spécialisation en chef de projet, avec un focus sur les méthodologies de développement avancées et l'architecture des systèmes complexes."
+  },
+  {
+    "degree": "Master en Informatique, Génie Logiciel",
+    "institution": "Université de Montpellier - Faculté des sciences",
+    "year": "2022 - 2024",
+    "description": "Spécialisation en génie logiciel, avec un focus sur les méthodologies de développement avancées et l'architecture des systèmes complexes."
+  },
+  {
+    "degree": "Master en Informatique et télécommunication",
+    "institution": "Institut Supérieur Polytechnique de Madagascar",
+    "year": "2020 - 2022",
+    "description": "Approfondissement des connaissances en informatique et télécommunication, avec des projets pratiques et une introduction à la recherche."
+  },
+  {
+    "degree": "Licence en Informatique et télécommunication",
+    "institution": "Institut Supérieur Polytechnique de Madagascar",
+    "year": "2017 - 2020",
+    "description": "Formation fondamentale en informatique et télécommunication, couvrant les bases de la programmation, des réseaux et des systèmes d'information."
+  }
+]

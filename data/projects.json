@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Personnel",
+    "description": "Un site web personnel présentant mes compétences et projets, construit avec Next.js et Tailwind CSS.",
+    "image": "/img/porfolio.png",
+    "technologies": ["Next.js", "React", "Tailwind CSS", "TypeScript"],
+    "github": "https://github.com/votreusername/portfolio",
+    "demo": "https://www.votreportfolio.com"
+  },
+  {
+    "id": 2,
+    "title": "Application de Gestion d'Attente",
+    "description": "Une application web conçue pour optimiser la gestion des files d'attente, offrant des fonctionnalités de suivi en temps réel et d'annonces dynamiques.",
+    "image": "/img/lineup.png",
+    "technologies": ["Angular", "Node.js", "Express.js", "MongoDB", "Socket.io"],
+    "github": "https://github.com/MN-Sandratra/LineUp",
+    "demo": "https://lineup-bay.vercel.app/"
+  },
+  {
+    "id": 3,
+    "title": "API de Recommandation de Films",
+    "description": "Une API RESTful qui fournit des recommandations de films basées sur les préférences de l'utilisateur et l'apprentissage automatique.",
+    "image": "/images/movie-api.jpg",
+    "technologies": ["Python", "Flask", "SQLAlchemy", "Machine Learning"],
+    "github": "https://github.com/votreusername/movie-recommendation-api",
+    "demo": "https://movie-rec-api.herokuapp.com/docs"
+  }
+]

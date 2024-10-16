@@ -1,0 +1,44 @@
+[
+  {
+    "company": "IDEALYS",
+    "title": "Développeur fullstack (stage)",
+    "location": "Montpellier, France",
+    "period": "01. 2024 - 07. 2024",
+    "description": [
+      "Conception et développement d'API GraphQL avec NestJS (Node.js) pour optimiser la gestion et le pilotage d'appareils connectés",
+      "Création d'API RESTful robustes en .NET Core (C#) pour assurer l'interopérabilité des systèmes",
+      "Développement d'interfaces utilisateur réactives et intuitives avec Next.js, améliorant l'expérience utilisateur",
+      "Mise en place de tests unitaires et end-to-end avec Jest et Cypress pour garantir la qualité et la fiabilité du code",
+      "Participation active à la planification des sprints et à l'estimation des tâches, contribuant à l'amélioration continue des processus de développement"
+    ],
+    "technologies": ["NestJS", "GraphQL", ".NET Core", "Next.js", "Jest", "Cypress"]
+  },
+  {
+    "company": "ETECH MADAGASCAR",
+    "title": "Ingénieur blockchain et développement fullstack (stage)",
+    "location": "Antananarivo, Madagascar",
+    "period": "05. 2022 - 09. 2022",
+    "description": [
+      "Conception et implémentation d'une solution innovante de traçabilité agricole basée sur la technologie blockchain",
+      "Développement de smart contracts sur Hyperledger Fabric pour assurer la transparence et la sécurité des transactions",
+      "Mise en place et gestion de l'intégration continue avec Jenkins, optimisant le processus de déploiement",
+      "Création d'une interface utilisateur dynamique et responsive avec Angular pour faciliter l'accès aux données de traçabilité",
+      "Développement et documentation d'API REST avec Spring Boot, Swagger et JUnit, assurant la maintenabilité et la scalabilité du système"
+    ],
+    "technologies": ["Hyperledger Fabric", "Angular", "Jenkins", "Docker", "Spring Boot", "Swagger", "JUnit"]
+  },
+  {
+    "company": "ORANGE MADAGASCAR",
+    "title": "Développeur web fullstack (stage)",
+    "location": "Antananarivo, Madagascar",
+    "period": "10. 2019 - 01. 2020",
+    "description": [
+      "Conception et implémentation d'un bastion d'accès sécurisé pour renforcer la sécurité des serveurs de l'entreprise",
+      "Développement d'une application web robuste utilisant Django (Python) pour la gestion et la surveillance efficace des accès",
+      "Intégration de JQuery et Bootstrap pour créer une interface utilisateur réactive et moderne",
+      "Mise en place d'une base de données PostgreSQL pour stocker et gérer les données d'accès de manière sécurisée",
+      "Collaboration étroite avec l'équipe de sécurité pour implémenter les meilleures pratiques en matière de contrôle d'accès"
+    ],
+    "technologies": ["Django", "Python", "JQuery", "Bootstrap", "PostgreSQL"]
+  }
+]

@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  @apply font-sans;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Effet de curseur fluorescent */
+.cursor-custom {
+  cursor: none;
+}
+
+.cursor-dot {
+  width: 5px;
+  height: 5px;
+  background-color: #61DAFB;
+}
+
+.cursor-outline {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #61DAFB;
+}
+
+.cursor-dot,
+.cursor-outline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 9999;
+  pointer-events: none;
+  transition: opacity 0.15s ease-in-out,
+              transform 0.15s ease-in-out;
+}
+
+/* Animation de transition pour le changement de thème */
+.transition-theme {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
