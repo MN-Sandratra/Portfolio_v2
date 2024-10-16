@@ -84,7 +84,7 @@ const ProjectCard: React.FC<{ project: Project; index: number; expandedProject: 
             className="text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors duration-300 flex items-center"
           >
             <FaGithub className="mr-2" />
-            GitHub
+            Code
           </a>
           <a 
             href={project.demo} 

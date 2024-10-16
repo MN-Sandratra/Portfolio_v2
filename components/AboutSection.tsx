@@ -83,7 +83,7 @@ const AboutSection: React.FC = () => {
           >
             <div className="relative w-64 h-64 mx-auto">
               <Image
-                src="/path-to-your-image.jpg"
+                src="/img/photoporfolio.jpg"
                 alt="Sandratra MBELO NDRIAMANAMPY"
                 layout="fill"
                 objectFit="cover"

@@ -5,8 +5,8 @@
     "description": "Un site web personnel présentant mes compétences et projets, construit avec Next.js et Tailwind CSS.",
     "image": "/img/porfolio.png",
     "technologies": ["Next.js", "React", "Tailwind CSS", "TypeScript"],
-    "github": "https://github.com/votreusername/portfolio",
-    "demo": "https://www.votreportfolio.com"
+    "github": "https://github.com/MN-Sandratra/Portfolio_v2",
+    "demo": "https://sandratra-mbelondriamanampy.vercel.app/"
   },
   {
     "id": 2,
@@ -19,11 +19,11 @@
   },
   {
     "id": 3,
-    "title": "API de Recommandation de Films",
-    "description": "Une API RESTful qui fournit des recommandations de films basées sur les préférences de l'utilisateur et l'apprentissage automatique.",
-    "image": "/images/movie-api.jpg",
-    "technologies": ["Python", "Flask", "SQLAlchemy", "Machine Learning"],
-    "github": "https://github.com/votreusername/movie-recommendation-api",
-    "demo": "https://movie-rec-api.herokuapp.com/docs"
+    "title": "InstaPic",
+    "description": "Une réinterprétation moderne et épurée de l'interface Instagram, développée avec Angular. Ce projet met en avant une approche minimaliste tout en conservant les fonctionnalités clés qui ont fait le succès de la plateforme originale.",
+    "image": "/img/instapic.png",
+    "technologies": ["Angular", "Bootstrap", "SCSS"],
+    "github": "https://github.com/MN-Sandratra/angular-instapic",
+    "demo": "https://mn-sandratra.github.io/angular-instapic/home#"
   }
 ]
