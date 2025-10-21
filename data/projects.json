@@ -1,5 +1,23 @@
 [
   {
+    "id": 5,
+    "title": "Tic Tac Toe",
+    "description": "Implémentation du jeu de Tic Tac Toe pour mobile (iOS/Android/Web) avec trois modes de jeu : local, contre une intelligence artificielle (IA), et **multijoueur en temps réel** (en ligne). ",
+    "image": "/img/tic_tac_toe.png",
+    "technologies": ["React Native", "TypeScript", "Firebase", "Minimax"],
+    "github": "https://github.com/MN-Sandratra/Native_Tic_Tac_Toe",
+    "demo": "https://native-tic-tac-toe--qkwtvjp0a6.expo.app/"
+  },
+  {
+    "id": 4,
+    "title": "Pulseboard (Gestion de Clinique)",
+    "description": "Application Full Stack pour la gestion des dossiers médicaux (médecins et patients).",
+    "image": "/img/pulseboard.png",
+    "technologies": ["Angular", "Spring Boot", "Java", "PostgreSQL", "Docker"],
+    "github": "https://github.com/MN-Sandratra/pulseboard",
+    "demo": "https://pulseboard-pi.vercel.app/"
+  },
+  {
     "id": 1,
     "title": "Portfolio Personnel",
     "description": "Un site web personnel présentant mes compétences et projets, construit avec Next.js et Tailwind CSS.",
@@ -13,7 +31,13 @@
     "title": "Application de Gestion d'Attente",
     "description": "Une application web conçue pour optimiser la gestion des files d'attente, offrant des fonctionnalités de suivi en temps réel et d'annonces dynamiques.",
     "image": "/img/lineup.png",
-    "technologies": ["Angular", "Node.js", "Express.js", "MongoDB", "Socket.io"],
+    "technologies": [
+      "Angular",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Socket.io"
+    ],
     "github": "https://github.com/MN-Sandratra/LineUp",
     "demo": "https://lineup-bay.vercel.app/"
   },

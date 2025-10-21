@@ -1,5 +1,17 @@
 [
   {
+    "company": "CGI",
+    "title": "Assistant PMO (stage)",
+    "location": "Sophia Antipolis, France",
+    "period": "02. 2025 - 08. 2025",
+    "description": [
+      "Conception et mise en place de tableaux de bord de suivi via Power BI pour le pilotage et le reporting",
+      "Suivi opérationnel des commandes et de la charge des collaborateurs",
+      "Préparation des supports (revues de projet, comités de pilotage) et animation de réunions"
+    ],
+    "technologies": ["Power BI", "Gestion de projet", "Reporting"]
+  },
+  {
     "company": "IDEALYS",
     "title": "Développeur fullstack (stage)",
     "location": "Montpellier, France",
@@ -11,7 +23,14 @@
       "Mise en place de tests unitaires et end-to-end avec Jest et Cypress pour garantir la qualité et la fiabilité du code",
       "Participation active à la planification des sprints et à l'estimation des tâches, contribuant à l'amélioration continue des processus de développement"
     ],
-    "technologies": ["NestJS", "GraphQL", ".NET Core", "Next.js", "Jest", "Cypress"]
+    "technologies": [
+      "NestJS",
+      "GraphQL",
+      ".NET Core",
+      "Next.js",
+      "Jest",
+      "Cypress"
+    ]
   },
   {
     "company": "ETECH MADAGASCAR",
@@ -25,7 +44,15 @@
       "Création d'une interface utilisateur dynamique et responsive avec Angular pour faciliter l'accès aux données de traçabilité",
       "Développement et documentation d'API REST avec Spring Boot, Swagger et JUnit, assurant la maintenabilité et la scalabilité du système"
     ],
-    "technologies": ["Hyperledger Fabric", "Angular", "Jenkins", "Docker", "Spring Boot", "Swagger", "JUnit"]
+    "technologies": [
+      "Hyperledger Fabric",
+      "Angular",
+      "Jenkins",
+      "Docker",
+      "Spring Boot",
+      "Swagger",
+      "JUnit"
+    ]
   },
   {
     "company": "ORANGE MADAGASCAR",
